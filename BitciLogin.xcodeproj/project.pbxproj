@@ -13,6 +13,8 @@
 		D0A598FF26566A8F00094B76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A598FE26566A8F00094B76 /* Preview Assets.xcassets */; };
 		D0A5990A26566A8F00094B76 /* BitciLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5990926566A8F00094B76 /* BitciLoginTests.swift */; };
 		D0A5991526566A8F00094B76 /* BitciLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5991426566A8F00094B76 /* BitciLoginUITests.swift */; };
+		D0A5992626566C1500094B76 /* BitciTextFieldComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5992526566C1500094B76 /* BitciTextFieldComponent.swift */; };
+		D0A5992B2656775000094B76 /* BitciButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5992A2656775000094B76 /* BitciButtonComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		D0A5991026566A8F00094B76 /* BitciLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitciLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A5991426566A8F00094B76 /* BitciLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitciLoginUITests.swift; sourceTree = "<group>"; };
 		D0A5991626566A8F00094B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0A5992526566C1500094B76 /* BitciTextFieldComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitciTextFieldComponent.swift; sourceTree = "<group>"; };
+		D0A5992A2656775000094B76 /* BitciButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitciButtonComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				D0A598FB26566A8F00094B76 /* Assets.xcassets */,
 				D0A5990026566A8F00094B76 /* Info.plist */,
 				D0A598FD26566A8F00094B76 /* Preview Content */,
+				D0A5992526566C1500094B76 /* BitciTextFieldComponent.swift */,
+				D0A5992A2656775000094B76 /* BitciButtonComponent.swift */,
 			);
 			path = BitciLogin;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A5992626566C1500094B76 /* BitciTextFieldComponent.swift in Sources */,
 				D0A598FA26566A8E00094B76 /* ContentView.swift in Sources */,
 				D0A598F826566A8E00094B76 /* BitciLoginApp.swift in Sources */,
+				D0A5992B2656775000094B76 /* BitciButtonComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
